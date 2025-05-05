@@ -1,6 +1,7 @@
 #!/bin/bash
-# Liste tous les fichiers du répertoire courant, y compris les fichiers cachés
+# Shebang obligatoire pour exécuter le script en tant que commande.
 
-# Utilise ls -A pour inclure les fichiers cachés (ceux commençant par .)
-ls -A
-
+ls
+# Commande `ls` (list) : liste le contenu du répertoire courant.
+# Sans options, elle affiche les fichiers et dossiers dans un format compact.
+# Exemple de sortie : affiche les noms des fichiers séparés par des espaces.
