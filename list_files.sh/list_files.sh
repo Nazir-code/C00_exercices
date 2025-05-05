@@ -1,5 +1,6 @@
 #!/bin/bash
-# Ce script affiche la liste des fichiers du répertoire courant
-echo "Liste des fichiers dans le répertoire courant :"
-ls -l
+# Liste tous les fichiers du répertoire courant, y compris les fichiers cachés
+
+# Utilise ls -A pour inclure les fichiers cachés (ceux commençant par .)
+ls -A
 
