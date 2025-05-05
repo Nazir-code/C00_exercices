@@ -1,7 +1,6 @@
 #!/bin/bash
-# Shebang standard pour les scripts Bash.
-
-date +"%Y-%m-%d %H:%M:%S"
+# Affiche la date et l'heure actuelle
+echo "Date et heure actuelle : $(date '+%Y-%m-%d %H:%M:%S')"
 # Commande `date` : récupère la date et l'heure actuelles.
 # L'option `+` permet de spécifier un format personnalisé.
 # Format utilisé :
