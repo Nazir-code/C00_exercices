@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ce script demande un nom de fichier à l'utilisateur et vérifie s'il existe
+# Ce script vérifie si un fichier donné existe ou non
 
 read -p "Entrez le nom du fichier : " filename
 
