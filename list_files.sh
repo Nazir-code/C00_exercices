@@ -1,7 +1,5 @@
 #!/bin/bash
-# Shebang obligatoire pour exécuter le script en tant que commande.
+# Ce script affiche la liste des fichiers (non répertoires) du répertoire courant.
 
-ls
-# Commande `ls` (list) : liste le contenu du répertoire courant.
-# Sans options, elle affiche les fichiers et dossiers dans un format compact.
-# Exemple de sortie : affiche les noms des fichiers séparés par des espaces.
+echo "Liste des fichiers dans le répertoire courant :"
+ls -p | grep -v /

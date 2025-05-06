@@ -1,8 +1,11 @@
 #!/bin/bash
-# Shebang pour l'exécution en Bash.
+# Ce script crée un répertoire nommé test_directory s'il n'existe pas.
 
-mkdir test_directory
-# Commande `mkdir` (make directory) : crée un nouveau répertoire.
-# Ici, le dossier "test_directory" est créé dans le répertoire courant.
-# Si le dossier existe déjà, Bash renverra une erreur (non gérée ici, car l'exercice ne le demande pas).
+directory_name="test_directory"
 
+if [ -d "$directory_name" ]; then
+    echo "Le répertoire '$directory_name' existe déjà."
+else
+    mkdir "$directory_name"
+    echo "Répertoire '$directory_name' créé avec succès."
+fi
