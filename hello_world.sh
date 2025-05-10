@@ -1,4 +1,2 @@
-#!/bin/bash
-
-# Affiche "Hello, World!" dans le terminal
-echo "hello world"
+# Afficher "Hello, World!" à l'écran 
+echo 'Hello, World!'
